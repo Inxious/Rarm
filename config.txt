@@ -1,0 +1,73 @@
+[Database Configuration]
+Trusted = yes
+Driver = SQL Server Native Client 11.0
+Server = .
+Database = AldoArm
+uid = 
+pwd =
+
+[Application Configuration]
+ISDebug = 1
+
+[Machine Connection]
+BoardUsed =  1
+#Fill with Board Name
+1 = Board1
+
+[Motor Configuration]
+Need_Activation = [6]
+Need_ConvertValue = [1,2,3,4]
+
+[Constant Data Configuration]
+#Configuration For Loading Data on database at the Start Of program
+#If you use This Method the data is 'Constant' after Loaded , and will not change even the data on DATABASE is changed
+#simply say the 'Data would not loaded again' after This program load the data on Start of program
+# >> Set 1 for 'True' , 0 for 'False'
+MotorData = 1
+
+
+[Scroll Limit]
+min_axis1 = -360
+max_axis1 = 360
+min_axis2 = -360
+max_axis2 = 360
+min_axis3 = -360
+max_axis3 = 360
+min_axis4 = -360
+max_axis4 = 360
+min_servo = 0
+max_servo = 180
+
+[Controller Configuration]
+Serial = COM7
+BaudRate = 115200
+DelayCommand = 0.1
+
+[Magnet Configuration]
+ISOn = 1
+
+[Scroll Mode Configuration]
+LoadDBonStart = True
+#Fill with | NORMAL || SCROLL |
+Axis_0 = NORMAL
+TypeCommand = NORMAL
+#Limit Controller In Second
+Limit_Detect = 0.3
+#Limit Executing Command
+Limit_Command = 0.1
+
+[Command Configuration]
+Motor_1_Digit = [5,4,1]
+Motor_2_Digit = [5,4,1]
+Motor_3_Digit = [5,4,1]
+Motor_4_Digit = [5,4,1]
+Motor_5_Digit = [3,3]
+Motor_6_Digit = [1]
+
+[Perbandingan Gear]
+M1 = 4.5
+M2 = 9.9
+M3 = 10.519481
+M4 = 13.806818
+
+[Standart ]

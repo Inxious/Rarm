@@ -1,0 +1,14 @@
+[Sp Motor]
+0 = name >> id
+1 = id >> name
+2 = id >> boardid
+3 = id >> orient pos
+4 = id >> orien neg
+5 = id >> Commandid
+6 = id >> CommandFeedback
+7 = id >> HomeCommand
+8 = id >> HomeFeedback
+9 = id >> HomeOffset
+10 = id >> MaxMove
+11 = id >> MinMove
+12 = id >> SpeedSet
